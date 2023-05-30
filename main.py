@@ -7,8 +7,8 @@ def create_connection():
         host='192.168.20.97',
         port='5432',
         dbname='postgres',
-        user='postgres',
-        password='root'
+        user='postgres1',
+        password='1234'
     )
     return connection
 
