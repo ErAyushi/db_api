@@ -5,10 +5,10 @@ import os
 def create_connection():
     connection = psycopg2.connect(
         host='192.168.20.97',
-        port='5432',
+        port='5435',
         dbname='postgres',
         user='postgres',
-        password='root'
+        password='1234'
     )
     return connection
 
